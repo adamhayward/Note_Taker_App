@@ -1,14 +1,24 @@
 {
-    "name": "note-taker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "- [`Description`](#Description \"check out a brief description & demo of the app\")  - [`Installation Instructions`](#InstallationInstructions \"how to install the app\")  - [`Usage`](#Usage \"intended use\")  - [`Contribution Guidelines`](#ContributionGuidelines \"requirements to contribute to project\")  - [`Testing Proceedures`](#TestingProceedures \"instructions on how to test the app\")  - [`Licenses Required`](#LicensesRequired \"license requirements\")  - [`Questions`](#Questions \"ask the developer\")  ## Description This application is allows a user to take notes, retrieve notes, a& delete notes.",
+  "main": "server.js",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-    "express": "^4.16.4"
-    }
+  },
+  "author": "Adam Hayward",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamhayward/Note_Taker_App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adamhayward/Note_Taker_App/issues"
+  },
+  "homepage": "https://github.com/adamhayward/Note_Taker_App#readme"
 }
