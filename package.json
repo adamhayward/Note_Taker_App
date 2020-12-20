@@ -1,7 +1,7 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "- [`Description`](#Description \"check out a brief description & demo of the app\")  - [`Installation Instructions`](#InstallationInstructions \"how to install the app\")  - [`Usage`](#Usage \"intended use\")  - [`Contribution Guidelines`](#ContributionGuidelines \"requirements to contribute to project\")  - [`Testing Proceedures`](#TestingProceedures \"instructions on how to test the app\")  - [`Licenses Required`](#LicensesRequired \"license requirements\")  - [`Questions`](#Questions \"ask the developer\")  ## Description This application is allows a user to take notes, retrieve notes, a& delete notes.",
+  "description": "This application is allows a user to take notes, retrieve notes, a& delete notes.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

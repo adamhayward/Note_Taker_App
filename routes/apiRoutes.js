@@ -1,10 +1,11 @@
-var notes = require("../db/notes_db");
+var jsonF = require("../db/notes_db");
 var fs = require("fs");
 var path = require("path");
 
 module.exports = function (app) {
     //TODO GET /api/notes - Should read the db.json file and return all saved notes as JSON.
   app.get("/api/notes", function (req, res) {
+      var notes = JSON.parse(fs.readFileSync(path.join(__dirname, "../db/notes_db.json"))) 
     return res.json(notes);
   });
   //TODO POST /api/notes - Should receive a new note to save on the request body, 
