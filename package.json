@@ -4,8 +4,8 @@
   "description": "This application is allows a user to take notes, retrieve notes, a& delete notes.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "node server.js" 
+   },
   "author": "Adam Hayward",
   "license": "ISC",
   "dependencies": {
