@@ -10,8 +10,10 @@
 ## Description
 This application is allows a user to take notes, retrieve notes, a& delete notes.
 
-## Installation Instructions
+Vist the deployed app [here] (https://shrouded-coast-96073.herokuapp.com/).
 
+## Installation Instructions
+Simply run `npm install` from the command line.
 
 ## Usage
 To allow users to kep track of a lot of information and have the information available when necessary.
